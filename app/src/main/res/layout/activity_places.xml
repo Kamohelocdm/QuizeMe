@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#fff7DA"
+    android:paddingTop="16dp"
+    tools:context="com.example.ekasilabalexcdtb.quizeme.PlacesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="score"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/pquestion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp"
+        android:text="Who was the first person to clim table mountain?"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/place_choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#7A1EA1"
+        android:padding="8dp"
+        android:text=" António de Saldanha"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/place_choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#7A1EA1"
+        android:padding="8dp"
+        android:text="Albert instaine"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/place_choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#7A1EA1"
+        android:padding="8dp"
+        android:text="Charlotte Nikoi"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/place_quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#7A1EA1"
+        android:padding="8dp"
+        android:text="quit"
+        android:textColor="#fff" />
+
+</LinearLayout>
+
+

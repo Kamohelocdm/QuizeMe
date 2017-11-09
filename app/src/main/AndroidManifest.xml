@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ekasilabalexcdtb.quizeme">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BibleActivity"
+            android:label="@string/title_bible"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PlacesActivity"
+            android:label="@string/title_places"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ArtistsActivity"
+            android:label="@string/title_artists"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ScoreActivity"
+            android:label="@string/title_score"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ScorePlace"
+            android:label="@string/title_score2"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ArtistsScore"
+            android:label="@string/title_score3"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

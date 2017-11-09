@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuizeMe</string>
+
+    <string name="title_bible">Bible</string>
+
+    <string name="title_places">Places</string>
+
+    <string name="title_artists">Artists</string>
+
+    <string name="title_score">Bible Score</string>
+
+    <string name="title_score2">Place Score</string>
+
+    <string name="title_score3">Artists Score</string>
+
+</resources>

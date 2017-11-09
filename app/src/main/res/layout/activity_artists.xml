@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#fff7DA"
+    android:paddingTop="16dp"
+    tools:context="com.example.ekasilabalexcdtb.quizeme.ArtistsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="score"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/art_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/art_question"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        android:padding="8dp"
+        android:text="Which SA Artists is Rich?"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/art_choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#7A1EA1"
+        android:padding="8dp"
+        android:text="Black Coffee"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/art_choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#7A1EA1"
+        android:padding="8dp"
+        android:text="Hugh Masekela"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/art_choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#7A1EA1"
+        android:padding="8dp"
+        android:text="AKA"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#7A1EA1"
+        android:padding="8dp"
+        android:text="quit"
+        android:textColor="#fff" />
+
+</LinearLayout>
+
+
